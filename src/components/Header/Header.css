@@ -1,0 +1,56 @@
+.header {
+  height: 70px;
+  background-color: #a92940;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;   /* ✅ pushes content inside */
+}
+
+/* LEFT */
+.header-left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.company-name {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.company-phone {
+  font-size: 18px;
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+/* CENTER MENU */
+.header-center {
+  display: flex;
+  gap: 35px;          /* ✅ better spacing */
+}
+
+.header-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Bigger Home */
+.home-link {
+  font-size: 24px;     /* ✅ more highlight */
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* RIGHT */
+.header-right {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Noto Sans Gurmukhi", sans-serif;
+  margin-right: 20px;  /* ✅ move inside */
+}
