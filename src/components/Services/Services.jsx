@@ -26,6 +26,7 @@ const services = [
   { name: "Low Income Certificate",punjabi: "ਘੱਟ ਆਮਦਨੀ ਦਾ ਸਰਟੀਫਿਕੇਟ", img: lic },
   { name: "Old Age Pension",punjabi: "ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ", img: oldage },
   { name: "Website Development",punjabi: "ਆਪਣੀ ਕਾਰੋਬਾਰੀ ਵੈੱਬਸਾਈਟ ਬਣਵਾਓ", img: website },
+  { name: "Health Insurance",punjabi: "ਸਿਹਤ ਬੀਮਾ", img: website },
 
   
   
