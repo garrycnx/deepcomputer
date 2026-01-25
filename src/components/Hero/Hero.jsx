@@ -58,7 +58,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-right">
-        <img src="/assets/bg-tree.png" alt="CSC Tree" />
+        <img src="/assets/bg-tree.png" alt="main photo" />
       </div>
     </section>
   );

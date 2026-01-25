@@ -12,6 +12,7 @@ import caste from "../../assets/services/caste.png";
 import lic from "../../assets/services/lic.png";
 import oldage from "../../assets/services/oldage.png";
 import website from "../../assets/services/website.png";
+import health from "../../assets/services/health.png";
 
 const services = [
   { name: "Aadhaar Card",punjabi: "ਆਧਾਰ ਕਾਰਡ", img: aadhaar },
@@ -26,7 +27,7 @@ const services = [
   { name: "Low Income Certificate",punjabi: "ਘੱਟ ਆਮਦਨੀ ਦਾ ਸਰਟੀਫਿਕੇਟ", img: lic },
   { name: "Old Age Pension",punjabi: "ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ", img: oldage },
   { name: "Website Development",punjabi: "ਆਪਣੀ ਕਾਰੋਬਾਰੀ ਵੈੱਬਸਾਈਟ ਬਣਵਾਓ", img: website },
-  { name: "Health Insurance",punjabi: "ਸਿਹਤ ਬੀਮਾ", img: website },
+  { name: "Health Insurance",punjabi: "ਸਿਹਤ ਬੀਮਾ", img: health },
 
   
   
