@@ -3,7 +3,7 @@ import "./Services.css";
 import aadhaar from "../../assets/services/aadhaar.png";
 import gnm from "../../assets/services/number_plate.png";
 import passport from "../../assets/services/passport.png";
-import driving from "../../assets/services/driving.png";
+import driving from "../../assets/services/Driving.png";
 
 const services = [
   { name: "Aadhaar Card",punjabi: "ਆਧਾਰ ਕਾਰਡ", img: aadhaar },
