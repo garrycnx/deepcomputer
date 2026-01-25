@@ -15,7 +15,17 @@ const Hero = () => {
           Government-to-Citizen (G2C) and Business-to-Citizen (B2C) services.
         </p>
 
-        <button className="hero-btn">Join our whatsapp Group</button>
+        <a 
+            href="https://whatsapp.com/channel/0029Vb5TNAt2Jl88FZShjE2e" 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            <button className="hero-btn">
+                Join our WhatsApp Group
+            </button>
+        </a>
+
+
       </div>
 
       <div className="hero-right">
