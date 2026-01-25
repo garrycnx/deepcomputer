@@ -1,6 +1,6 @@
 import "./Services.css";
 
-import aadhaar from "../../assets/services/aadhaar.png";
+import aadhaar from "../../assets/services/aadhar.png";
 import gnm from "../../assets/services/number_plate.png";
 import passport from "../../assets/services/passport.png";
 import driving from "../../assets/services/Driving.png";
