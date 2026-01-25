@@ -7,6 +7,8 @@
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 25px;
+  color: #000; /* ✅ ADD THIS */
+
 }
 
 .services-title span {
@@ -31,7 +33,7 @@
 
 .services-tabs .active {
   background: #ff6b35;
-  color: white;
+  color: #fff;
 }
 
 /* Grid */
