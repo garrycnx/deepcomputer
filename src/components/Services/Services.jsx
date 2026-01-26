@@ -13,7 +13,7 @@ import lic from "../../assets/services/lic.png";
 import oldage from "../../assets/services/oldage.png";
 import website from "../../assets/services/website.png";
 import health from "../../assets/services/health.png";
-
+import cctv from "../../assets/services/cctv.png";
 
 
 const services = [
@@ -30,6 +30,7 @@ const services = [
   { name: "Old Age Pension",punjabi: "ਬੁਢਾਪਾ ਪੈਨਸ਼ਨ", img: oldage },
   { name: "Website Development",punjabi: "ਆਪਣੀ ਕਾਰੋਬਾਰੀ ਵੈੱਬਸਾਈਟ ਬਣਵਾਓ", img: website },
   { name: "Health Insurance",punjabi: "ਸਿਹਤ ਬੀਮਾ", img: health },
+  { name: "CCTV Installation",punjabi: "CCTV ਕੈਮਰੇ ਲਗਵਾਓ", img: cctv },
 
   
   
