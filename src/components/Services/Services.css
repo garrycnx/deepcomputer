@@ -80,3 +80,38 @@
   color: #555;
   font-family: "Noto Sans Gurmukhi", sans-serif;
 }
+
+/* Banner code  */
+
+/* Add to Services.css */
+.scrolling-text-container {
+  background-color: #003366;
+  color: #FFD700;
+  overflow: hidden;
+  padding: 12px 0;
+  white-space: nowrap;
+  border-radius: 15px;   /* 👈 Rounded edges */
+}
+
+.scrolling-track {
+  display: inline-flex;
+  gap: 80px; /* 🔥 space between Punjabi & English */
+  animation: scrollText 40s linear infinite;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pause on hover */
+.scrolling-text-container:hover .scrolling-track {
+  animation-play-state: paused;
+}

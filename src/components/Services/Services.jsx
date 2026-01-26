@@ -14,6 +14,8 @@ import oldage from "../../assets/services/oldage.png";
 import website from "../../assets/services/website.png";
 import health from "../../assets/services/health.png";
 
+
+
 const services = [
   { name: "Aadhaar Card",punjabi: "ਆਧਾਰ ਕਾਰਡ", img: aadhaar },
   { name: "Government Number Plate",punjabi: "ਸਰਕਾਰੀ ਨੰਬਰ ਪਲੇਟ", img: gnm },
@@ -34,8 +36,24 @@ const services = [
 ];
 
 const Services = () => {
-  return (
-    <section className="services-section">
+
+    const scrollingText =
+      "ਇੱਥੇ 10 ਲੱਖ ਵਾਲੇ ਮੁੱਖ ਮੰਤਰੀ ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ ਵੀ ਬਣਾਏ ਜਾਂਦੇ ਹਨ।";
+
+    const englishText =
+      "Chief Minister Ayushman Cards worth Rs 10 lakh are also made here.";
+
+    return (
+      <section className="services-section">
+
+        <div className="scrolling-text-container">
+          <div className="scrolling-track">
+            <span>{scrollingText}</span>
+            <span>{englishText}</span>
+          </div>
+        </div>
+
+
       <h2 className="services-title">
         Our <span>Services</span>
       </h2>
