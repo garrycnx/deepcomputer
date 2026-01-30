@@ -14,7 +14,8 @@ import oldage from "../../assets/services/oldage.png";
 import website from "../../assets/services/website.png";
 import health from "../../assets/services/health.png";
 import cctv from "../../assets/services/cctv.png";
-
+import mmsyf from "../../assets/services/mmsyf.png";
+import mmsyb from "../../assets/services/mmsyb.png";
 
 const services = [
   { name: "Aadhaar Card",punjabi: "ਆਧਾਰ ਕਾਰਡ", img: aadhaar },
@@ -54,6 +55,11 @@ const Services = () => {
           </div>
         </div>
 
+            {/* Add the two images here */}
+      <div className="mmsy-images-container">
+        <img src={mmsyf} alt="Mukhya Mantri Sehat Yojana Punjabi" className="mmsy-image" />
+        <img src={mmsyb} alt="Mukhya Mantri Sehat Yojana Details" className="mmsy-image" />
+      </div>
 
       <h2 className="services-title">
         Our <span>Services</span>

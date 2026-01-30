@@ -115,3 +115,82 @@
 .scrolling-text-container:hover .scrolling-track {
   animation-play-state: paused;
 }
+
+/* Styles for MMSY images container */
+.mmsy-images-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 35px auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.mmsy-image {
+  width: 380px;
+  height: 240px;
+  object-fit: cover; /* Changed from 'contain' to 'cover' */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  /* Removed padding since we want to remove white space */
+  background-color: transparent; /* Changed from white to transparent */
+}
+
+/* Hover effect */
+.mmsy-image:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+/* For larger screens (desktops) */
+@media (min-width: 1200px) {
+  .mmsy-image {
+    width: 420px;
+    height: 270px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 992px) {
+  .mmsy-images-container {
+    gap: 30px;
+  }
+  
+  .mmsy-image {
+    width: 340px;
+    height: 220px;
+  }
+}
+
+/* For smaller tablets and large phones */
+@media (max-width: 768px) {
+  .mmsy-images-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .mmsy-image {
+    width: calc(50% - 20px);
+    max-width: 350px;
+    height: 220px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 576px) {
+  .mmsy-images-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .mmsy-image {
+    width: 100%;
+    max-width: 380px;
+    height: 240px; /* Fixed height instead of auto */
+    max-height: 240px;
+  }
+}
