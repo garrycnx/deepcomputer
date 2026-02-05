@@ -15,7 +15,7 @@ const Header = () => {
         <a className="home-link" href="#">Home</a>
         <a href="#">Services</a>
         <a href="#">Login</a>
-        <a href="#">Contact</a>
+        <a href="https://wa.me/918558091100" target="_blank">Contact</a>
       </nav>
 
       {/* Right */}
