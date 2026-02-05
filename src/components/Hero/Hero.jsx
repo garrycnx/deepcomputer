@@ -58,7 +58,19 @@ const Hero = () => {
       </div>
 
       <div className="hero-right">
-        <img src="/assets/bg-tree.png" alt="main photo" />
+        <div className="rotating-gallery">
+          <img src="/assets/image1.png" alt="Service 1" className="gallery-image" />
+          <img src="/assets/image2.png" alt="Service 2" className="gallery-image" />
+          <img src="/assets/image3.png" alt="Service 3" className="gallery-image" />
+          <img src="/assets/image4.png" alt="Service 4" className="gallery-image" />
+          <img src="/assets/image5.png" alt="Service 5" className="gallery-image" />
+          <img src="/assets/image6.png" alt="Service 6" className="gallery-image" />
+          <img src="/assets/image7.png" alt="Service 7" className="gallery-image" />
+          <img src="/assets/image8.png" alt="Service 8" className="gallery-image" />
+          <img src="/assets/image9.png" alt="Service 9" className="gallery-image" />
+          <img src="/assets/image10.png" alt="Service 10" className="gallery-image" />
+          <img src="/assets/image11.png" alt="Service 10" className="gallery-image" />
+        </div>
       </div>
     </section>
   );
