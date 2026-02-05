@@ -194,3 +194,17 @@
     max-height: 240px;
   }
 }
+
+/* ## Post office add */
+.po-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.po-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
