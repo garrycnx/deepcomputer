@@ -45,6 +45,14 @@ const Services = () => {
 
     const englishText =
       "Chief Minister Ayushman Cards worth Rs 10 lakh are also made here.";
+    // NEW TEXT for second scrolling
+
+    const scrollingText2 =
+      "ਫਾਰਮ ਭਰਨ ਦੀ ਆਖਰੀ ਮਿਤੀ 31 ਮਾਰਚ 2026 ਹੈ ਜੀ। ਜਲਦੀ ਅਪਲਾਈ ਕਰੋ।";
+
+    const englishText2 =
+      "The last date to apply is 31 March 2026. Apply soon.";
+
 
     return (
       <section className="services-section">
@@ -62,9 +70,16 @@ const Services = () => {
         <img src={mmsyb} alt="Mukhya Mantri Sehat Yojana Details" className="mmsy-image" />
       </div>
 
+      {/* Second Scrolling Text (Different Text) */}
+      <div className="scrolling-text-container">
+        <div className="scrolling-track">
+          <span>{scrollingText2}</span>
+          <span>{englishText2}</span>
+        </div>
+      </div>
+
       <div className="po-images-container">
         <img src={po} alt="Post office " className="po-image" />
-
       </div>
 
 
