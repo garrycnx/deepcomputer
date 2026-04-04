@@ -205,6 +205,32 @@
 
 .po-image {
   display: block;
-  max-width: 100%;
+  width: auto;
   height: auto;
+  border-radius: 0 0 30px 30px; /* Bottom edges rounded */
+  /* Alternative: border-bottom-left-radius and border-bottom-right-radius */
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .po-image {
+    max-width: 1000px;
+    max-height: 600px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .po-image {
+    max-width: 450px;
+    max-height: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .po-image {
+    max-width: 300px;
+    max-height: 200px;
+  }
 }

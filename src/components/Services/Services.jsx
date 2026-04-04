@@ -48,10 +48,10 @@ const Services = () => {
     // NEW TEXT for second scrolling
 
     const scrollingText2 =
-      "ਫਾਰਮ ਭਰਨ ਦੀ ਆਖਰੀ ਮਿਤੀ 31 ਮਾਰਚ 2026 ਹੈ ਜੀ। ਜਲਦੀ ਅਪਲਾਈ ਕਰੋ।";
+      "ਮੁੱਖ ਮੰਤਰੀ ਮਾਵਾਂ ਧੀਆਂ ਸਤਿਕਾਰ ਯੋਜਨਾ ਲਈ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਕਰਨ ਵਾਸਤੇ ਅੱਜ ਹੀ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।";
 
     const englishText2 =
-      "The last date to apply is 31 March 2026. Apply soon.";
+      "Contact us today to register for the Mukh Mantri Mawan Dhian Satikar Yojna.";
 
 
     return (
