@@ -18,6 +18,9 @@ import mmsyf from "../../assets/services/mmsyf.png";
 import mmsyb from "../../assets/services/mmsyb.png";
 import po from "../../assets/services/po.png";
 
+import warden from "../../assets/services/warden.png";
+
+
 const services = [
   { name: "Aadhaar Card",punjabi: "ਆਧਾਰ ਕਾਰਡ", img: aadhaar },
   { name: "Government Number Plate",punjabi: "ਸਰਕਾਰੀ ਨੰਬਰ ਪਲੇਟ", img: gnm },
@@ -82,6 +85,9 @@ const Services = () => {
         <img src={po} alt="Post office " className="po-image" />
       </div>
 
+      <div className="po-images-container">
+        <img src={warden} alt="Post office " className="po-image" />
+      </div>
 
 
       <h2 className="services-title">
